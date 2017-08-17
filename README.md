@@ -1,5 +1,5 @@
 # KVSliderBar
-Sample Top Scroll Bar
+Sample Top Scroll Bar.<br>
 This is simple top scroll bar,show you gif.<br>
 
 
