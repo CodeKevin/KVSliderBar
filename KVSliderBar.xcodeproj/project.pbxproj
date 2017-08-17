@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0016401F443938007EEB13 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A00163F1F443938007EEB13 /* BaseViewController.swift */; };
+		0A081E001F4588830028ABBB /* KVBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081DFD1F4588830028ABBB /* KVBarContentView.swift */; };
+		0A081E011F4588830028ABBB /* KVBarTitleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081DFE1F4588830028ABBB /* KVBarTitleItem.swift */; };
+		0A081E021F4588830028ABBB /* KVBarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A081DFF1F4588830028ABBB /* KVBarTitleView.swift */; };
+		0A6DA9B81F42888500BE7A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA9B71F42888500BE7A93 /* AppDelegate.swift */; };
+		0A6DA9BA1F42888500BE7A93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA9B91F42888500BE7A93 /* ViewController.swift */; };
+		0A6DA9BD1F42888500BE7A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DA9BB1F42888500BE7A93 /* Main.storyboard */; };
+		0A6DA9BF1F42888500BE7A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DA9BE1F42888500BE7A93 /* Assets.xcassets */; };
+		0A6DA9C21F42888500BE7A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DA9C01F42888500BE7A93 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A00163F1F443938007EEB13 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0A081DFD1F4588830028ABBB /* KVBarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVBarContentView.swift; sourceTree = "<group>"; };
+		0A081DFE1F4588830028ABBB /* KVBarTitleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVBarTitleItem.swift; sourceTree = "<group>"; };
+		0A081DFF1F4588830028ABBB /* KVBarTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVBarTitleView.swift; sourceTree = "<group>"; };
+		0A6DA9B41F42888500BE7A93 /* KVSliderBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVSliderBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6DA9B71F42888500BE7A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A6DA9B91F42888500BE7A93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A6DA9BC1F42888500BE7A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A6DA9BE1F42888500BE7A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6DA9C11F42888500BE7A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6DA9C31F42888500BE7A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6DA9B11F42888500BE7A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A081DFC1F4588830028ABBB /* KVSliderBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A081DFD1F4588830028ABBB /* KVBarContentView.swift */,
+				0A081DFE1F4588830028ABBB /* KVBarTitleItem.swift */,
+				0A081DFF1F4588830028ABBB /* KVBarTitleView.swift */,
+			);
+			path = KVSliderBar;
+			sourceTree = "<group>";
+		};
+		0A6DA9AB1F42888500BE7A93 = {
+			isa = PBXGroup;
+			children = (
+				0A6DA9B61F42888500BE7A93 /* KVSliderBar */,
+				0A6DA9B51F42888500BE7A93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6DA9B51F42888500BE7A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6DA9B41F42888500BE7A93 /* KVSliderBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6DA9B61F42888500BE7A93 /* KVSliderBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A081DFC1F4588830028ABBB /* KVSliderBar */,
+				0A6DA9B71F42888500BE7A93 /* AppDelegate.swift */,
+				0A6DA9B91F42888500BE7A93 /* ViewController.swift */,
+				0A00163F1F443938007EEB13 /* BaseViewController.swift */,
+				0A6DA9BB1F42888500BE7A93 /* Main.storyboard */,
+				0A6DA9BE1F42888500BE7A93 /* Assets.xcassets */,
+				0A6DA9C01F42888500BE7A93 /* LaunchScreen.storyboard */,
+				0A6DA9C31F42888500BE7A93 /* Info.plist */,
+			);
+			path = KVSliderBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6DA9B31F42888500BE7A93 /* KVSliderBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6DA9C61F42888500BE7A93 /* Build configuration list for PBXNativeTarget "KVSliderBar" */;
+			buildPhases = (
+				0A6DA9B01F42888500BE7A93 /* Sources */,
+				0A6DA9B11F42888500BE7A93 /* Frameworks */,
+				0A6DA9B21F42888500BE7A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVSliderBar;
+			productName = KVSliderBar;
+			productReference = 0A6DA9B41F42888500BE7A93 /* KVSliderBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A6DA9AC1F42888500BE7A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					0A6DA9B31F42888500BE7A93 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0A6DA9AF1F42888500BE7A93 /* Build configuration list for PBXProject "KVSliderBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A6DA9AB1F42888500BE7A93;
+			productRefGroup = 0A6DA9B51F42888500BE7A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A6DA9B31F42888500BE7A93 /* KVSliderBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A6DA9B21F42888500BE7A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6DA9C21F42888500BE7A93 /* LaunchScreen.storyboard in Resources */,
+				0A6DA9BF1F42888500BE7A93 /* Assets.xcassets in Resources */,
+				0A6DA9BD1F42888500BE7A93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6DA9B01F42888500BE7A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6DA9BA1F42888500BE7A93 /* ViewController.swift in Sources */,
+				0A081E001F4588830028ABBB /* KVBarContentView.swift in Sources */,
+				0A081E021F4588830028ABBB /* KVBarTitleView.swift in Sources */,
+				0A081E011F4588830028ABBB /* KVBarTitleItem.swift in Sources */,
+				0A6DA9B81F42888500BE7A93 /* AppDelegate.swift in Sources */,
+				0A0016401F443938007EEB13 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A6DA9BB1F42888500BE7A93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6DA9BC1F42888500BE7A93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A6DA9C01F42888500BE7A93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6DA9C11F42888500BE7A93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A6DA9C41F42888500BE7A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A6DA9C51F42888500BE7A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A6DA9C71F42888500BE7A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KVSliderBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVSliderBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0A6DA9C81F42888500BE7A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KVSliderBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVSliderBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6DA9AF1F42888500BE7A93 /* Build configuration list for PBXProject "KVSliderBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6DA9C41F42888500BE7A93 /* Debug */,
+				0A6DA9C51F42888500BE7A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6DA9C61F42888500BE7A93 /* Build configuration list for PBXNativeTarget "KVSliderBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6DA9C71F42888500BE7A93 /* Debug */,
+				0A6DA9C81F42888500BE7A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A6DA9AC1F42888500BE7A93 /* Project object */;
+}
